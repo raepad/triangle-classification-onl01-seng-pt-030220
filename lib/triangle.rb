@@ -8,7 +8,8 @@ class Triangle
   end
   
   def kind
-    if side_one != 
+    if side_one == side_two && side_one == side_three
+      
       
   end
   
