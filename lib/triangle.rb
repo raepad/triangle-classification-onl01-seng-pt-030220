@@ -8,7 +8,7 @@ class Triangle
   end
   
   def kind
-    # if > 0
+    
       
   end
   
