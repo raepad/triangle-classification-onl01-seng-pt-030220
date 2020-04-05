@@ -16,7 +16,6 @@ class Triangle
     else
       :scalene
     end
-      
   end
   
   def illegal_triangle
