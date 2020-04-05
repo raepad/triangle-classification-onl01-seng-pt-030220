@@ -19,15 +19,15 @@ class Triangle
   end
   
   def illegal_triangle
-    if one <= 0 || two <= 0 || three <= 0
+    if side_one <= 0 || side_two <= 0 || side_three <= 0
       begin
         raise TriangleError
       end
-    elsif one == nil || two == nil || three == nil
+    elsif side_one == nil || side_two == nil || side_three == nil
       begin
         raise TriangleError
       end
-    elsif one + two <= three || one + three <= two || three + two <= one
+    elsif side_one + side_two <= side_three || side_one + side_three <= side_two || side_three + side_two <= side_one
       begin
         raise TriangleError
       end
